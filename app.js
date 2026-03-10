@@ -10,7 +10,6 @@ function calculate(num1, num2, operation) {
  // Your logic
  return num1*num2;
 }
-
  
  return "Operation not implemented";
 
