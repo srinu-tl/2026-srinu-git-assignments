@@ -6,8 +6,15 @@ function calculate(num1, num2, operation) {
  return num1 + num2; // Implement this
  
  }
+ if (operation === "multiply") {
+ // Your logic
+ return num1*num2;
+}
+
  
  return "Operation not implemented";
+
 }
 
 console.log(calculate(5, 3, "add")); // Must output: 8
+
