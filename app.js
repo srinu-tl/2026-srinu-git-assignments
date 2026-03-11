@@ -2,8 +2,8 @@
 function calculate(num1, num2, operation) {
  console.log(`Calculating ${num1} ${operation} ${num2}`);
  
- if (operation === "add") {
- return num1 + num2; // Implement this
+ if (operation === "divide") {
+ return num1 * num2; // Implement this
  }
  
  return "Operation not implemented";
