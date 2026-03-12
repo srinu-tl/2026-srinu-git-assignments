@@ -4,6 +4,7 @@ function calculate(num1, num2, operation) {
  if (opeation ==="exp" ){
   return num1**num2;
  }
+ console.log("hello")
  if (operation === "add"|| operation =="addition") {
  return num1 + num2; // Implement this
  }
