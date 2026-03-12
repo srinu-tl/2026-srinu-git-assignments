@@ -4,6 +4,9 @@ function calculate(num1, num2, operation) {
  
  if (operation === "divide") {
  return num1 * num2; // Implement this
+ if (operation === "add"|| operation =="addition") {
+ return num1 + num2; // Implement this
+ 
  }
  
  return "Operation not implemented";
