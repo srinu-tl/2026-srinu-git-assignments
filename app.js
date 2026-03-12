@@ -10,6 +10,6 @@ function calculate(num1, num2, operation) {
  }
  
  return "Operation not implemented";
-}
+}}
 
 console.log(calculate(5, 3, "add")); // Must output: 8
